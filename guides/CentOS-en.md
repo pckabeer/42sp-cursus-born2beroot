@@ -134,6 +134,15 @@ Now, on your terminal window, [make sure](screenshots/23.png) that you have `DNF
 
 - `dnf --version` - to check its current installed version.
 
+If 'DNF' is not found use the below commands
+
+To install DNF on RHEL/CentOS 7 systems, you need to set up and enable epel YUM REPO before installing DNF.
+
+- '# yum install epel-release'
+
+Install DNF
+- '# yum install DNF'
+
 ---
 <h2 id="SELinux">
 	<b>SELinux</b>
